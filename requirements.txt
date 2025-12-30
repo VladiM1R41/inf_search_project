@@ -1,0 +1,5 @@
+aiohttp>=3.8.0
+SQLAlchemy>=1.4.0
+PyYAML>=6.0
+beautifulsoup4>=4.11.0
+requests>=2.31.0

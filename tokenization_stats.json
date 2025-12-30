@@ -1,0 +1,10 @@
+{
+  "total_tokens": 22250104,
+  "average_token_length": 13.39,
+  "processing_time_ms": 284108,
+  "processing_time_sec": 284.11,
+  "documents_processed": 35004,
+  "tokens_per_second": 78315.65,
+  "documents_per_second": 123.21,
+  "average_tokens_per_document": 635.64
+}

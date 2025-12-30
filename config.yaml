@@ -1,0 +1,23 @@
+database:
+  path: "wiki_crawler_lab2.db"
+  type: "sqlite"
+
+crawler:
+  root_category: "Персоналии по алфавиту"
+  max_documents: 35000
+  min_words: 500
+  request_delay: 0.5
+  max_retries: 3
+  parallel_workers: 8
+  resume_enabled: true
+  check_for_updates: true
+
+output:
+  html_directory: "html_corpus_lab2"
+  text_directory: "text_corpus_lab2"
+  metadata_file: "metadata_lab2.csv"
+  log_file: "crawler_lab2.log"
+
+api:
+  base_url: "https://ru.wikipedia.org/w/api.php"
+  user_agent: "EducationalBot/1.0 (University Project; user@example.com)"
